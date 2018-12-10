@@ -9,7 +9,7 @@
   Program calibrations orientation sensor in the North direction and continuously grabs sensor data to light up the skirt in the North facing direction*/
 /*colour library*/
 
-//COMPILES ON ARDUINO 1.8.6 but might need 1.6.7
+//COMPILES ON ARDUINO 1.8.6 but might need 1.6.7 or 1.6.4
 #define BLUE    0, 0, 255
 #define TEAL    0,255,255
 #define PINK    255,51,153

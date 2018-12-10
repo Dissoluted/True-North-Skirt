@@ -8,6 +8,8 @@
 /*True North Skirt V1 - Sophie Amin March 19 2017
   Program calibrations orientation sensor in the North direction and continuously grabs sensor data to light up the skirt in the North facing direction*/
 /*colour library*/
+
+//COMPILES ON ARDUINO 1.8.6
 #define BLUE    0, 0, 255
 #define TEAL    0,255,255
 #define PINK    255,51,153
@@ -368,4 +370,3 @@ void turnOff(int s){
 
 //fuction to turn on one of 12 sections
 //pass the colour of the lighting, the starting position and the ending position
-
